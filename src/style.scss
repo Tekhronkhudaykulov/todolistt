@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+}
+.all_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  input {
+    width: 400px;
+    height: 30px;
+    padding: 0 25px;
+    border: none;
+    outline: none;
+    font-style: italic;
+  }
+  input:focus {
+    border-bottom: 1px solid sienna;
+  }
+  button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: brown;
+    color: white;
+    margin-left: 10px;
+  }
+}
+.items {
+  display: flex;
+  justify-content: center;
+  p {
+    border-bottom: 1px solid darkslateblue;
+    font-size: 18px;
+    margin: 25px 0;
+    text-align: center;
+  }
+}
