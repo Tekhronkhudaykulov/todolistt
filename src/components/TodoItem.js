@@ -2,7 +2,11 @@ import React from 'react'
 
 const TodoItem = ({title}) => {
     return (
-        <p>{title}</p>
+        <div className="item">
+                 <div className="p">
+                 <p>{title}</p>
+                 </div>
+        </div>
     )
 }
 

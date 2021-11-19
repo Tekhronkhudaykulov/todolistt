@@ -30,10 +30,10 @@ const App = () =>  {
           </div>
     </div>
     <div className="items">
-        {
-          todos.map(item => {
+      {
+          todos.map(item => (
             <TodoItem title={item.title} />
-          })
+          ))
         }
     </div>
     </>
