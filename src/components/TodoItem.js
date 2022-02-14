@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const TodoItem = ({title}) => {
+const TodoItem = ({images}) => {
     return (
-        <div className="item">
-                 <div className="p">
-                 <p>{title}</p>
-                 </div>
-        </div>
+        <>
+        {
+            images.map(item => (
+            <img className='img' src={item.src} alt="" />
+            ))
+        }
+        </>
+        
     )
 }
-
-
 export default TodoItem;
